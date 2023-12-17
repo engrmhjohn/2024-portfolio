@@ -2024,6 +2024,11 @@ span.icon {
   left: 0px;
   right: auto;
 }
+@media(max-width: 576px){
+  .timeline>li>.timeline-panel .timeline-heading {
+    line-height: normal;
+  }
+}
 
 @media only screen and (max-width: 767px) {
 
